@@ -39,6 +39,14 @@
 
             <li class="side-nav-title">More Links</li>
 
+
+            <li class="side-nav-item">
+                <a href="/view-users" class="side-nav-link">
+                    <i class="uil-user"></i>
+                    <span> Users </span>
+                </a>
+            </li>
+
             <li class="side-nav-item">
                 <a href="/calendar" class="side-nav-link">
                     <i class="uil-calender"></i>
@@ -47,18 +55,11 @@
             </li>
 
             <li class="side-nav-item">
-                <a href="/view-users" class="side-nav-link">
-                    <i class="uil-calender"></i>
-                    <span> Users </span>
-                </a>
-            </li>
-{{-- 
-            <li class="side-nav-item">
-                <a href="/calendar" class="side-nav-link">
-                    <i class="uil-calender"></i>
+                <a href="/view-meetings" class="side-nav-link">
+                    <i class="uil uil-schedule"></i>
                     <span> Meetings </span>
                 </a>
-            </li> --}}
+            </li>
 
             {{-- <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#availability" aria-expanded="false" aria-controls="availability"

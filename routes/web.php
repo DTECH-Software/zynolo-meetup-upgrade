@@ -24,4 +24,8 @@ Route::get('/profile', function () { return view('pages.profile'); });
 
 Route::get('/view-users', function () { return view('pages.users.view'); });
 
+// Meetings
+Route::get('/view-meetings', function () { return view('pages.meetings.view'); });
+Route::get('/schedule-meeting', function () { return view('pages.meetings.schedule-meeting'); });
+
 
