@@ -152,33 +152,134 @@
     </div>
 
 
-
-
-
-    <div class="col-12 col-md-12">
-        <div class="card">
-            <div class="card-header d-flex justify-content-between align-items-center">
-                <h4 class="header-title">Calendar</h4>
-                <div class="dropdown">
-                    <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="mdi mdi-dots-vertical"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-end">
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item">Today</a>
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item">Yesterday</a>
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item">Last Week</a>
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item">Last Month</a>
+    <div class="row align-items-stretch">
+        <!-- Calendar Column -->
+        <div class="col-12 col-md-6 d-flex">
+            <div class="card flex-fill">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h4 class="header-title">Calendar</h4>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="mdi mdi-dots-vertical"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a href="javascript:void(0);" class="dropdown-item">Today</a>
+                            <a href="javascript:void(0);" class="dropdown-item">Yesterday</a>
+                            <a href="javascript:void(0);" class="dropdown-item">Last Week</a>
+                            <a href="javascript:void(0);" class="dropdown-item">Last Month</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-body px-2 pb-2 pt-0 mt-n2">
-                <div data-provide="datepicker-inline" data-date-today-highlight="true" class="calendar-widget"></div>
+                <div class="card-body px-2 pb-2 pt-0 mt-n2">
+                    <div data-provide="datepicker-inline" data-date-today-highlight="true" class="calendar-widget"></div>
+                </div>
             </div>
         </div>
-    </div> <!-- end col -->
+
+        <!-- Table Column -->
+        <div class="col-12 col-md-6 d-flex">
+            <div class="card flex-fill">
+                <div class="card-body d-flex flex-column">
+                    <h4 class="text-muted">
+                        Today Meeting Schedule
+                    </h4>
+
+                    <div class="tab-pane show active" id="alt-pagination-preview">
+                        <div style="max-height:350px; overflow-y:auto; -ms-overflow-style:none; scrollbar-width:none;"
+                            onscroll="this.style.scrollbarWidth='none'">
+                            <style>
+                                div[style*='overflow-y:auto']::-webkit-scrollbar {
+                                    display: none;
+                                }
+                            </style>
+                            <table class="table table-striped dt-responsive nowrap w-100">
+                                <thead>
+                                    <tr>
+                                        <th>Category</th>
+                                        <th>Meeting Name</th>
+                                        <th>Members</th>
+                                        <th>Time</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Online</td>
+                                        <td>Tiger Nixon</td>
+                                        <td>user@gmail.com</td>
+                                        <td><i class="mdi mdi-circle text-success"></i> Active</td>
+                                        <td>User</td>
+                                        <td class="table-action">
+                                            <a href="/edit" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                            <a href="" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Online</td>
+                                        <td>Garrett Winters</td>
+                                        <td>user@gmail.com</td>
+                                        <td><i class="mdi mdi-circle text-danger"></i> Inactive</td>
+                                        <td>Admin</td>
+                                        <td class="table-action">
+                                            <a href="/edit" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                            <a href="" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Online</td>
+                                        <td>Jhone Swerds</td>
+                                        <td>user@gmail.com</td>
+                                        <td><i class="mdi mdi-circle text-success"></i> Active</td>
+                                        <td>Super Admin</td>
+                                        <td class="table-action">
+                                            <a href="/edit" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                            <a href="" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Online</td>
+                                        <td>Jhone Swerds</td>
+                                        <td>user@gmail.com</td>
+                                        <td><i class="mdi mdi-circle text-success"></i> Active</td>
+                                        <td>Super Admin</td>
+                                        <td class="table-action">
+                                            <a href="/edit" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                            <a href="" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Online</td>
+                                        <td>Jhone Swerds</td>
+                                        <td>user@gmail.com</td>
+                                        <td><i class="mdi mdi-circle text-success"></i> Active</td>
+                                        <td>Super Admin</td>
+                                        <td class="table-action">
+                                            <a href="/edit" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                            <a href="" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Online</td>
+                                        <td>Jhone Swerds</td>
+                                        <td>user@gmail.com</td>
+                                        <td><i class="mdi mdi-circle text-success"></i> Active</td>
+                                        <td>Super Admin</td>
+                                        <td class="table-action">
+                                            <a href="/edit" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                            <a href="" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <!-- more rows -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
