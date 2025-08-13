@@ -1,0 +1,39 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('leave_details', function (Blueprint $table) {
+            $table->id();
+            $table->unsignedBigInteger('employee_id');
+            $table->foreign('employee_id')->references('id')->on('employees');
+            $table->unsignedBigInteger('leave_type_id');
+            $table->foreign('leave_type_id')->references('id')->on('leave_types');
+            $table->date('leave_from')->nullable();
+            $table->date('leave_to')->nullable();
+            $table->float('amount')->nullable();
+            $table->unsignedBigInteger('approver_id')->nullable();
+            $table->unsignedBigInteger('leave_reason_id')->nullable();
+            $table->foreign('leave_reason_id')->references('id')->on('leave_reasons');
+//            $table->enum('status',['REQUESTED','APPROVED','REJECTED','CANCELLED'])->default('REQUESTED');
+            $table->foreign('approver_id')->references('id')->on('users');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('leave_details');
+    }
+};
