@@ -16246,10 +16246,7 @@ html[data-layout="topnav"] #topnav-color {
     --ct-btn-focus-shadow-rgb: 0 0 0 $btn-focus-width
         rgba(var(--ct-warning)-rgb, 0.5);
 }
-.btn-danger {
-    -webkit-box-shadow: var(--ct-btn-box-shadow) rgba(var(--ct-danger-rgb), 0.5);
-    box-shadow: var(--ct-btn-box-shadow) rgba(var(--ct-danger-rgb), 0.5);
-}
+
 .btn-soft-danger {
     --ct-btn-color: var(--ct-danger);
     --ct-btn-bg: var(--ct-danger-bg-subtle);
@@ -17859,7 +17856,7 @@ input[data-switch="dark"]:checked + label {
 }
 .toll-free-box i {
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: -15px;
     font-size: 4rem;
     opacity: 0.4;

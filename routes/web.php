@@ -28,4 +28,11 @@ Route::get('/view-users', function () { return view('pages.users.view'); });
 Route::get('/view-meetings', function () { return view('pages.meetings.view'); });
 Route::get('/schedule-meeting', function () { return view('pages.meetings.schedule-meeting'); });
 
+// Availability
+Route::get('/check-availability', function () { return view('pages.availability.check-availability'); });
+Route::get('/send-email', function () { return view('pages.availability.send-email'); });
+
+Route::get('/send-availability', function () { return view('pages.availability.send-availability'); });
+
+
 

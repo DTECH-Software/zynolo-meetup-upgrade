@@ -61,20 +61,20 @@
                 </a>
             </li>
 
-            {{-- <li class="side-nav-item">
+            <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#availability" aria-expanded="false" aria-controls="availability"
                     class="side-nav-link">
-                    <i class="uil-user"></i>
+                    <i class="uil-clock"></i>
                     <span> Availability </span>
                     <span class="menu-arrow"></span>
                 </a>
                 <div class="collapse" id="availability">
                     <ul class="side-nav-second-level">
-                        <li><a href="/">Send Availability Check Request</a></li>
-                        <li><a href="/">Check User Availability</a></li>
+                        <li><a href="/send-availability">Send Availability Check Request</a></li>
+                        <li><a href="/check-availability">Check User Availability</a></li>
                     </ul>
                 </div>
-            </li> --}}
+            </li>
 
             {{-- <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#calendar" aria-expanded="false" aria-controls="calendar"

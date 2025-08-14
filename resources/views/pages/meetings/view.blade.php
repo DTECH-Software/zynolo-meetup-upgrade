@@ -11,11 +11,10 @@
         </div>
     </div>
     <!-- end page title -->
-    <div class="col-md-12 d-flex mb-3">
+    <div class="col-md-12 d-flex">
         <div class="card flex-fill d-flex flex-column h-100">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <h4 class="header-title">Today's Meetings</h4>
-
             </div>
 
             <div class="card-body pt-2">
@@ -53,6 +52,84 @@
             </div>
         </div>
     </div>
+
+    <div class="col-md-12 d-flex mb-3">
+        <div class="card flex-fill d-flex flex-column h-100">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h4 class="header-title">Meetings</h4>
+            </div>
+
+            <div class="card-body pt-2">
+                <div class="row d-flex">
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-bg-info overflow-hidden">
+                            <div class="card-body">
+                                <div class="toll-free-box">
+                                    <h5 class="text-reset"> <i class="mdi mdi-clock"></i></h5>
+                                    <h6 class="mb-1">09:30 AM</h6>
+                                    <h5 class="mb-1 text-reset">Meeting Title</h5>
+                                    <p class="mb-0">Check and analyze daily attendance details.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-bg-info overflow-hidden">
+                            <div class="card-body">
+                                <div class="toll-free-box">
+                                    <h5 class="text-reset"> <i class="mdi mdi-clock"></i></h5>
+                                    <h6 class="mb-1">09:30 AM</h6>
+                                    <h5 class="mb-1 text-reset">Meeting Title</h5>
+                                    <p class="mb-0">Check and analyze daily attendance details.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-bg-info overflow-hidden">
+                            <div class="card-body">
+                                <div class="toll-free-box">
+                                    <h5 class="text-reset"> <i class="mdi mdi-clock"></i></h5>
+                                    <h6 class="mb-1">09:30 AM</h6>
+                                    <h5 class="mb-1 text-reset">Meeting Title</h5>
+                                    <p class="mb-0">Check and analyze daily attendance details.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-bg-info overflow-hidden">
+                            <div class="card-body">
+                                <div class="toll-free-box">
+                                    <h5 class="text-reset"> <i class="mdi mdi-clock"></i></h5>
+                                    <h6 class="mb-1">09:30 AM</h6>
+                                    <h5 class="mb-1 text-reset">Meeting Title</h5>
+                                    <p class="mb-0">Check and analyze daily attendance details.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-bg-info overflow-hidden">
+                            <div class="card-body">
+                                <div class="toll-free-box">
+                                    <h5 class="text-reset"> <i class="mdi mdi-clock"></i></h5>
+                                    <h6 class="mb-1">09:30 AM</h6>
+                                    <h5 class="mb-1 text-reset">Meeting Title</h5>
+                                    <p class="mb-0">Check and analyze daily attendance details.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row-->
+            </div>
+        </div>
+    </div>
+
+
     <!-- Add User Modal -->
     <div class="modal fade" id="newMeetingModal" tabindex="-1" aria-labelledby="addUserModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -125,9 +202,8 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         <a href="/schedule-meeting" class="btn btn-primary">
-                            Add Member
+                            Add Members
                         </a>
-
                     </div>
                 </div>
             </form>

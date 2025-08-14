@@ -37,6 +37,11 @@
                                 </div>
 
                                 <div class="mb-3 col-md-12">
+                                    <label for="additional" class="form-label">Additional Attendees</label>
+                                    <input type="text" class="form-control">
+                                </div>
+
+                                <div class="mb-3 col-md-12">
                                     <label for="date" class="form-label">Date</label>
                                     <input type="date" class="form-control">
                                 </div>
@@ -86,8 +91,8 @@
                     </div>
 
                     <!-- Meeting Title -->
-                    <div class="border rounded p-3 mb-3">
-                        <h5 class="mb-2">ee4</h5>
+                    <div class="border" style="border-radius: 10px; padding: 1rem; margin-bottom: 1rem;">
+                        <h5 class="mb-2">Meeting Title</h5>
                         <hr>
                         <p class="mb-1">
                             <strong>To :</strong> dushanc@dtech.lk, karanikac@dtechlk.com, kasunm@dtech.lk,
