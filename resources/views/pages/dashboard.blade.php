@@ -27,36 +27,21 @@
     <div class="row">
         <div class="col-xl-6 col-lg-12">
             <div class="card">
-                <div class="card-body">
-                    <span class="float-start m-2 me-4">
-                        <img src="assets/images/user.gif" style="height: 100px;" alt="avatar image"
+                <div class="card-body d-flex flex-column flex-md-row align-items-center  text-center text-md-start">
+                    <span class="m-2 me-md-4">
+                        <img src="assets/images/user.png" style="height: 100px;" alt="avatar image"
                             class="rounded-circle img-thumbnail">
                     </span>
-                    <div class="">
+                    <div>
                         <h4 class="mt-1 mb-1">Tineth Pathirage</h4>
                         <p class="font-13">Associate Software Engineer</p>
 
-                        <div class="">
-                            <ul class="mb-0 list-inline">
-                                <li class="list-inline-item me-3">
-                                    <h5 class="mb-1">
-                                        <i class="mdi mdi-star text-warning"></i>
-                                        <i class="mdi mdi-star text-warning"></i>
-                                        <i class="mdi mdi-star text-warning"></i>
-                                        <i class="mdi mdi-star text-warning"></i>
-                                        <i class="mdi mdi-star text-secondary"></i>
-                                    </h5>
-                                    <p class="mb-0 font-13">Performance Rate</p>
-                                </li>
-                                {{-- <li class="list-inline-item">
-                                <h5 class="mb-1">100</h5>
-                                <p class="mb-0 font-13">Text</p>
-                            </li> --}}
-                            </ul>
-                        </div>
+                        <span class="badge badge-info-lighten py-1 px-2 font-13">
+                            <i class="mdi mdi-home me-1"></i>D Tech (Pvt) Ltd
+                        </span>
                     </div>
-                    <!-- end div-->
                 </div>
+
                 <!-- end card-body-->
             </div>
         </div> <!-- end col -->

@@ -5393,7 +5393,7 @@ fieldset:disabled .btn {
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    border-radius: var(--ct-badge-border-radius);
+    border-radius: 50px;
 }
 .badge:empty {
     display: none;
@@ -7724,7 +7724,7 @@ fieldset:disabled .btn {
 }
 .text-bg-primary {
     color: #fff !important;
-    background-color: RGBA(114, 124, 245, var(--ct-bg-opacity, 1)) !important;
+    background-color: #5d95ca !important;
 }
 .text-bg-secondary {
     color: #fff !important;
@@ -8524,10 +8524,7 @@ fieldset:disabled .btn {
 }
 .border-primary {
     --ct-border-opacity: 1;
-    border-color: rgba(
-        var(--ct-primary-rgb),
-        var(--ct-border-opacity)
-    ) !important;
+    border-color: #5d95ca !important;
 }
 .border-secondary {
     --ct-border-opacity: 1;
@@ -9759,10 +9756,7 @@ fieldset:disabled .btn {
 }
 .bg-primary {
     --ct-bg-opacity: 1;
-    background-color: rgba(
-        var(--ct-primary-rgb),
-        var(--ct-bg-opacity)
-    ) !important;
+    background-color: #5d95ca !important;
 }
 .bg-secondary {
     --ct-bg-opacity: 1;
