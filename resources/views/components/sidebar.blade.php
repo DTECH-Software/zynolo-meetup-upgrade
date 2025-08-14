@@ -83,20 +83,19 @@
                 </a>
             </li>
 
-            {{-- <li class="side-nav-item">
+            <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#permission" aria-expanded="false" aria-controls="permission"
                     class="side-nav-link">
-                    <i class="uil-user"></i>
-                    <span> Permission Administration </span>
+                    <i class="uil-lock"></i>
+                    <span> Permissions</span>
                     <span class="menu-arrow"></span>
                 </a>
                 <div class="collapse" id="permission">
                     <ul class="side-nav-second-level">
-                        <li><a href="/">Add Permission</a></li>
-
+                        <li><a href="/add-permission">Add Permissions</a></li>
                     </ul>
                 </div>
-            </li> --}}
+            </li>
 
 
         </ul>

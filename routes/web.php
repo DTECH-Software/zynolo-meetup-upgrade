@@ -39,5 +39,7 @@ Route::get('/send-availability', function () { return view('pages.availability.s
 // Calendar Management
 Route::get('/manage-calendar', function () { return view('pages.calendar.manage-calendar'); });
 
-
+// Permission Administration
+Route::get('/add-permission', function () { return view('pages.permission.add-permission'); });
+Route::get('/user-permission', function () { return view('pages.permission.user-permission'); });
 
