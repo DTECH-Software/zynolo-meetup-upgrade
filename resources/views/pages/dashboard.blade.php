@@ -82,7 +82,7 @@
                         <div class="w-100 overflow-hidden">
 
                             <h3 class="m-0 mb-2 fw-normal cta-box-title text-reset">Create a <b>New Meeting</b></h3>
-                            <a href="javascript:void(0);" class="btn btn-sm bg-white text-black rounded-pill">New Meeting <i
+                            <a href="/view-meetings" class="btn btn-sm bg-white text-black rounded-pill">New Meeting <i
                                     class="mdi mdi-arrow-right"></i></a>
                         </div>
                         <img class="my-3" src="assets/images/report.svg" width="180" alt="Generic placeholder image">

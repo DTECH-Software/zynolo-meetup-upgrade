@@ -42,7 +42,7 @@
 
             <li class="side-nav-item">
                 <a href="/view-users" class="side-nav-link">
-                    <i class="uil-user"></i>
+                    <i class="uil-users-alt"></i>
                     <span> Users </span>
                 </a>
             </li>
@@ -56,7 +56,7 @@
 
             <li class="side-nav-item">
                 <a href="/view-meetings" class="side-nav-link">
-                    <i class="uil uil-schedule"></i>
+                    <i class="uil-meeting-board"></i>
                     <span> Meetings </span>
                 </a>
             </li>
@@ -76,20 +76,12 @@
                 </div>
             </li>
 
-            {{-- <li class="side-nav-item">
-                <a data-bs-toggle="collapse" href="#calendar" aria-expanded="false" aria-controls="calendar"
-                    class="side-nav-link">
-                    <i class="uil-user"></i>
-                    <span> Manage Calendar</span>
-                    <span class="menu-arrow"></span>
+            <li class="side-nav-item">
+                <a href="/manage-calendar" class="side-nav-link">
+                    <i class="uil-schedule"></i>
+                    <span> Manage Calendar </span>
                 </a>
-                <div class="collapse" id="calendar">
-                    <ul class="side-nav-second-level">
-                        <li><a href="/">Add Holidays</a></li>
-                        <li><a href="/">Add Categories</a></li>
-                    </ul>
-                </div>
-            </li> --}}
+            </li>
 
             {{-- <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#permission" aria-expanded="false" aria-controls="permission"

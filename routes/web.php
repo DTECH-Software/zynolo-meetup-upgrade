@@ -36,5 +36,8 @@ Route::get('/send-email', function () { return view('pages.availability.send-ema
 
 Route::get('/send-availability', function () { return view('pages.availability.send-availability'); });
 
+// Calendar Management
+Route::get('/manage-calendar', function () { return view('pages.calendar.manage-calendar'); });
+
 
 
