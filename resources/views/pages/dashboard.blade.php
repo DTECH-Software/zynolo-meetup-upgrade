@@ -78,9 +78,15 @@
         <div class="col-md-6 d-flex mb-3">
             <div class="card cta-box text-bg-primary flex-fill d-flex flex-column h-100">
                 <div class="card-body">
+                    <span
+                        class="badge bg-white text-white font-bold bg-opacity-10 p-2 font-14 rounded-pill d-flex align-items-center justify-content-center"
+                        style="width: 200px;">
+                        <i class="uil-meeting-board fs-4 me-1"></i>
+                        No Ongoing Meetings
+                    </span>
+
                     <div class="d-flex align-items-start align-items-center">
                         <div class="w-100 overflow-hidden">
-
                             <h3 class="m-0 mb-2 fw-normal cta-box-title text-reset">Create a <b>New Meeting</b></h3>
                             <a href="/view-meetings" class="btn btn-sm bg-white text-black rounded-pill">New Meeting <i
                                     class="mdi mdi-arrow-right"></i></a>
@@ -110,9 +116,10 @@
                             </div>
                             <h4 class="my-0">10</h4>
                         </div>
-                        <div class="progress" style="height: 6px;">
-                            <div class="progress-bar" role="progressbar" style="width: 91%" aria-valuenow="91"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                role="progressbar" style="width: 91%" aria-valuenow="91" aria-valuemin="0"
+                                aria-valuemax="100"></div>
                         </div>
                     </div>
 
@@ -126,9 +133,10 @@
                             </div>
                             <h4 class="my-0">10</h4>
                         </div>
-                        <div class="progress" style="height: 6px;">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 47%" aria-valuenow="47"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                role="progressbar" style="width: 47%" aria-valuenow="47" aria-valuemin="0"
+                                aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>

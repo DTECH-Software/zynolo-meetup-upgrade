@@ -5393,7 +5393,7 @@ fieldset:disabled .btn {
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    border-radius: 50px;
+    border-radius: 0.5rem;
 }
 .badge:empty {
     display: none;
@@ -9465,7 +9465,7 @@ fieldset:disabled .btn {
 }
 .text-primary {
     --ct-text-opacity: 1;
-    color: rgba(var(--ct-primary-rgb), var(--ct-text-opacity)) !important;
+    color: #5d95ca !important;
 }
 .text-secondary {
     --ct-text-opacity: 1;
