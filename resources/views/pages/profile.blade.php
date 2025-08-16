@@ -16,11 +16,12 @@
         <div class="col-xl-4 col-lg-5 d-flex mb-4">
             <div class="card text-center flex-fill d-flex flex-column h-100">
                 <div class="card-body">
-                    <img src="assets/images/user.gif" class="rounded-circle avatar-lg img-thumbnail" alt="profile-image">
+                    <img src="assets/images/user.png" class="rounded-circle avatar-lg img-thumbnail" alt="profile-image">
 
                     <h4 class="mb-0 mt-2">Tineth Pathirage</h4>
                     <p class="font-14 mb-1">Associate Software Engineer</p>
-                    <span class="badge badge-secondary-lighten p-1 font-13"><i class="mdi mdi-home me-1"></i>D Tech (Pvt)
+                    <span class="badge badge-secondary-lighten py-1 px-2 font-13"><i class="mdi mdi-home me-1"></i>D Tech
+                        (Pvt)
                         Ltd</span>
 
 

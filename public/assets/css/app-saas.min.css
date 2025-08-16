@@ -5393,7 +5393,7 @@ fieldset:disabled .btn {
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    border-radius: var(--ct-badge-border-radius);
+    border-radius: 0.5rem;
 }
 .badge:empty {
     display: none;
@@ -7724,7 +7724,7 @@ fieldset:disabled .btn {
 }
 .text-bg-primary {
     color: #fff !important;
-    background-color: RGBA(114, 124, 245, var(--ct-bg-opacity, 1)) !important;
+    background-color: #5d95ca !important;
 }
 .text-bg-secondary {
     color: #fff !important;
@@ -8524,10 +8524,7 @@ fieldset:disabled .btn {
 }
 .border-primary {
     --ct-border-opacity: 1;
-    border-color: rgba(
-        var(--ct-primary-rgb),
-        var(--ct-border-opacity)
-    ) !important;
+    border-color: #5d95ca !important;
 }
 .border-secondary {
     --ct-border-opacity: 1;
@@ -9468,7 +9465,7 @@ fieldset:disabled .btn {
 }
 .text-primary {
     --ct-text-opacity: 1;
-    color: rgba(var(--ct-primary-rgb), var(--ct-text-opacity)) !important;
+    color: #5d95ca !important;
 }
 .text-secondary {
     --ct-text-opacity: 1;
@@ -9759,10 +9756,7 @@ fieldset:disabled .btn {
 }
 .bg-primary {
     --ct-bg-opacity: 1;
-    background-color: rgba(
-        var(--ct-primary-rgb),
-        var(--ct-bg-opacity)
-    ) !important;
+    background-color: #5d95ca !important;
 }
 .bg-secondary {
     --ct-bg-opacity: 1;
@@ -16246,10 +16240,7 @@ html[data-layout="topnav"] #topnav-color {
     --ct-btn-focus-shadow-rgb: 0 0 0 $btn-focus-width
         rgba(var(--ct-warning)-rgb, 0.5);
 }
-.btn-danger {
-    -webkit-box-shadow: var(--ct-btn-box-shadow) rgba(var(--ct-danger-rgb), 0.5);
-    box-shadow: var(--ct-btn-box-shadow) rgba(var(--ct-danger-rgb), 0.5);
-}
+
 .btn-soft-danger {
     --ct-btn-color: var(--ct-danger);
     --ct-btn-bg: var(--ct-danger-bg-subtle);
@@ -17859,7 +17850,7 @@ input[data-switch="dark"]:checked + label {
 }
 .toll-free-box i {
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: -15px;
     font-size: 4rem;
     opacity: 0.4;
@@ -20868,7 +20859,7 @@ span.flatpickr-weekday {
 /*# sourceMappingURL=app-saas.min.css.map */
 
 .side-nav-item .side-nav-link {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .modal-content {

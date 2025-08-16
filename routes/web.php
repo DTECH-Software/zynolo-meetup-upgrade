@@ -9,6 +9,8 @@ Route::get('/', function () { return view('auth.login'); })->name('login');
 
 Route::get('/forgot-password', function () { return view('auth.forgot-password'); })->name('forgot.password');
 
+Route::get('/reset-password', function () { return view('auth.reset-password'); });
+
 
 // Main Routes
 
@@ -24,4 +26,20 @@ Route::get('/profile', function () { return view('pages.profile'); });
 
 Route::get('/view-users', function () { return view('pages.users.view'); });
 
+// Meetings
+Route::get('/view-meetings', function () { return view('pages.meetings.view'); });
+Route::get('/schedule-meeting', function () { return view('pages.meetings.schedule-meeting'); });
+
+// Availability
+Route::get('/check-availability', function () { return view('pages.availability.check-availability'); });
+Route::get('/send-email', function () { return view('pages.availability.send-email'); });
+
+Route::get('/send-availability', function () { return view('pages.availability.send-availability'); });
+
+// Calendar Management
+Route::get('/manage-calendar', function () { return view('pages.calendar.manage-calendar'); });
+
+// Permission Administration
+Route::get('/add-permission', function () { return view('pages.permission.add-permission'); });
+Route::get('/user-permission', function () { return view('pages.permission.user-permission'); });
 

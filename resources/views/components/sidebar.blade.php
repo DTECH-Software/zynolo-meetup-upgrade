@@ -39,6 +39,14 @@
 
             <li class="side-nav-title">More Links</li>
 
+
+            <li class="side-nav-item">
+                <a href="/view-users" class="side-nav-link">
+                    <i class="uil-users-alt"></i>
+                    <span> Users </span>
+                </a>
+            </li>
+
             <li class="side-nav-item">
                 <a href="/calendar" class="side-nav-link">
                     <i class="uil-calender"></i>
@@ -47,63 +55,47 @@
             </li>
 
             <li class="side-nav-item">
-                <a href="/view-users" class="side-nav-link">
-                    <i class="uil-calender"></i>
-                    <span> Users </span>
-                </a>
-            </li>
-{{-- 
-            <li class="side-nav-item">
-                <a href="/calendar" class="side-nav-link">
-                    <i class="uil-calender"></i>
+                <a href="/view-meetings" class="side-nav-link">
+                    <i class="uil-meeting-board"></i>
                     <span> Meetings </span>
                 </a>
-            </li> --}}
+            </li>
 
-            {{-- <li class="side-nav-item">
+            <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#availability" aria-expanded="false" aria-controls="availability"
                     class="side-nav-link">
-                    <i class="uil-user"></i>
+                    <i class="uil-clock"></i>
                     <span> Availability </span>
                     <span class="menu-arrow"></span>
                 </a>
                 <div class="collapse" id="availability">
                     <ul class="side-nav-second-level">
-                        <li><a href="/">Send Availability Check Request</a></li>
-                        <li><a href="/">Check User Availability</a></li>
+                        <li><a href="/send-availability">Send Availability Check Request</a></li>
+                        <li><a href="/check-availability">Check User Availability</a></li>
                     </ul>
                 </div>
-            </li> --}}
+            </li>
 
-            {{-- <li class="side-nav-item">
-                <a data-bs-toggle="collapse" href="#calendar" aria-expanded="false" aria-controls="calendar"
-                    class="side-nav-link">
-                    <i class="uil-user"></i>
-                    <span> Manage Calendar</span>
-                    <span class="menu-arrow"></span>
+            <li class="side-nav-item">
+                <a href="/manage-calendar" class="side-nav-link">
+                    <i class="uil-schedule"></i>
+                    <span> Manage Calendar </span>
                 </a>
-                <div class="collapse" id="calendar">
-                    <ul class="side-nav-second-level">
-                        <li><a href="/">Add Holidays</a></li>
-                        <li><a href="/">Add Categories</a></li>
-                    </ul>
-                </div>
-            </li> --}}
+            </li>
 
-            {{-- <li class="side-nav-item">
+            <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#permission" aria-expanded="false" aria-controls="permission"
                     class="side-nav-link">
-                    <i class="uil-user"></i>
-                    <span> Permission Administration </span>
+                    <i class="uil-lock"></i>
+                    <span> Permissions</span>
                     <span class="menu-arrow"></span>
                 </a>
                 <div class="collapse" id="permission">
                     <ul class="side-nav-second-level">
-                        <li><a href="/">Add Permission</a></li>
-
+                        <li><a href="/add-permission">Add Permissions</a></li>
                     </ul>
                 </div>
-            </li> --}}
+            </li>
 
 
         </ul>
